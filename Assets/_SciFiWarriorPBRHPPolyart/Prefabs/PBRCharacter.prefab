@@ -2722,6 +2722,7 @@ GameObject:
   - component: {fileID: 2836004475591197023}
   - component: {fileID: 2836004473841745626}
   - component: {fileID: 8650232344441635236}
+  - component: {fileID: -6192303328261282056}
   m_Layer: 0
   m_Name: PBRCharacter
   m_TagString: Enemy
@@ -2761,7 +2762,7 @@ Animator:
   m_GameObject: {fileID: 2836004475591695743}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 860793eb3324391468f1c120a75ec049, type: 3}
-  m_Controller: {fileID: 9100000, guid: 6defa2fea7e9a934a8d2cafa30dc567a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 08ead660d42d6e147a41e486d222c4de, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2794,3 +2795,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.5295758, y: 1.9708453, z: 1}
   m_Center: {x: 0, y: 0.9889415, z: 0}
+--- !u!114 &-6192303328261282056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2836004475591695743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da9f38258a138984b9b71164d42bba3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AR_EnemyHealth
+  vidaMaxima: 10
+  puntosPorClick: 10
+  puntosAlMorir: 100
+  esElJefeFinal: 0
